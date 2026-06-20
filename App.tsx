@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -43,3 +44,17 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+=======
+import React from 'react';
+import { StatusBar } from 'react-native';
+import AppNavigator from './src/navigation/AppNavigator';
+
+export default function App() {
+  return (
+    <>
+      <StatusBar barStyle="dark-content" backgroundColor="#FFFFFF" />
+      <AppNavigator />
+    </>
+  );
+}
+>>>>>>> 631e1555ffe95829660e3b18ac89d40b808ccf91
